@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color References in CSS</title>
+    <style>
+        .color-demo {
+            width: 200px;
+            height: 100px;
+            margin: 10px;
+            text-align: center;
+            line-height: 100px;
+            font-weight: bold;
+            color: white;
+        }
+        .color-name { background-color: red; }
+        .color-hex { background-color: #ff5733; }
+        .color-rgb { background-color: rgb(0, 128, 255); }
+        .color-rgba { background-color: rgba(0, 128, 255, 0.5); }
+        .color-hsl { background-color: hsl(120, 100%, 50%); }
+        .color-hsla { background-color: hsla(120, 100%, 50%, 0.5); }
+    </style>
+</head>
+<body>
+
+    <div class="color-demo color-name">Color Name</div>
+    <div class="color-demo color-hex">Hex Code</div>
+    <div class="color-demo color-rgb">RGB</div>
+    <div class="color-demo color-rgba">RGBA</div>
+    <div class="color-demo color-hsl">HSL</div>
+    <div class="color-demo color-hsla">HSLA</div>
+
+</body>
+</html>
