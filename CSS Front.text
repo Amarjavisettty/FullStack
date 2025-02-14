@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Font and Text</title>
+    <style>
+        .text-demo {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 10px;
+        }
+        .font-size { font-size: 24px; }
+        .font-weight { font-weight: bold; }
+        .font-style { font-style: italic; }
+        .text-decoration { text-decoration: underline; }
+        .text-transform { text-transform: uppercase; }
+        .text-align { text-align: center; }
+    </style>
+</head>
+<body>
+
+    <div class="text-demo font-size">This is a large font size (24px)</div>
+    <div class="text-demo font-weight">This is bold text</div>
+    <div class="text-demo font-style">This is italic text</div>
+    <div class="text-demo text-decoration">This is underlined text</div>
+    <div class="text-demo text-transform">This text is in uppercase</div>
+    <div class="text-demo text-align">This text is center-aligned</div>
+
+</body>
+</html>
