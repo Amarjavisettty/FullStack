@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Larger Number</title>
+    <script type="text/javascript">
+        function checkNumbers() {
+            var num1 = parseInt(prompt("Enter the first number:"));
+            var num2 = parseInt(prompt("Enter the second number:"));
+            var num3 = parseInt(prompt("Enter the third number:"));
+            if (num1 === num2 && num2 === num3) {
+                alert("EQUAL NUMBERS");
+            } else {
+                var largerNumber = Math.max(num1, num2, num3);
+                alert(largerNumber + " LARGER NUMBER");
+            }
+        }
+    </script>
+</head>
+<body onload="checkNumbers()">
+</body>
+</html>
